@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # wdi-bio-responsive-WIP-
 **A custom responsive grid system (WIP)**
 
@@ -14,3 +15,7 @@ Grids are created by simply dividing the page into 12 columns. To divide the pag
 To make a 3 column page, you will need a 3 col-4-of-12 to make it a total of 12 and so on for the number of colmuns you need. THe columns **MUST** add to 12. 6 + 6, 3 + 3 + 3 + 3, 12 x 1, 4 + 8, 10 + 2, etc. 
 
 Report any bugs if you see one. Thank you. 
+=======
+# wdi-bio-responsive-WIP
+A simple bio pages
+>>>>>>> ea7b99ba34106d6b4f8f7e6f9121a297fdc523c5
