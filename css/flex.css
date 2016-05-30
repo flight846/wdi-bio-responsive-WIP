@@ -1,0 +1,179 @@
+blockquote {
+    padding: 10px 20px;
+    margin: 20px 0 10px 10px;
+    font-size: 17.5px;
+    border-left: 5px solid rgb(7, 207, 255);
+}
+
+.card {
+    margin: 20px;
+    height: 260px;
+    width: auto;
+    background: #fff;
+    text-align: center;
+}
+
+
+/*---- Columns ----*/
+
+.col-1-of-12 {
+    display: inline-block;
+    width: 8.32%
+}
+
+.col-2-of-12 {
+    display: inline-block;
+    width: 16.65%;
+}
+
+.col-3-of-12 {
+    display: inline-block;
+    width: 25%;
+}
+
+.col-4-of-12 {
+    display: inline-block;
+    width: 33%;
+}
+
+.col-5-of-12 {
+    display: inline-block;
+    width: 41%;
+}
+
+.col-6-of-12 {
+    display: inline-block;
+    width: 50%;
+}
+
+.col-7-of-12 {
+    display: inline-block;
+    width: 58%;
+}
+
+.col-8-of-12 {
+    display: inline-block;
+    width: 66%;
+}
+
+.col-9-of-12 {
+    display: inline-block;
+    width: 75%;
+}
+
+.col-10-of-12 {
+    display: inline-block;
+    width: 83%;
+}
+
+.col-11-of-12 {
+    display: inline-block;
+    width: 91%;
+}
+
+.col-12-of-12 {
+    width: 100%;
+}
+
+@media all and (max-width: 600px) {
+    .col-1-of-12, .col-2-of-12, .col-3-of-12, .col-4-of-12, .col-5-of-12, .col-6-of-12, .col-7-of-12, .col-8-of-12, .col-9-of-12, .col-10-of-12, .col-11-of-12, .col-12-of-12 {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+/*---- Centers ----*/
+.center-block {
+  display: table;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+/*---- Navbars ----*/
+
+.nav-bar {
+  width: 100%;
+  list-style: none;
+  display: flex;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: #ffffff;
+}
+
+.nav-bar a:hover {
+  border-bottom: 1px solid rgba(7, 207, 255, 0.5);
+  color: rgba(7, 207, 255, 0.5);
+}
+
+.nav-bar .active a {
+    color: rgba(7, 207, 255, 0.5);
+}
+
+@media all and (max-width: 600px) {
+    .nav-bar a:hover {
+        border-bottom: none;
+        background-color: #393939;
+        color: #fff;
+    }
+}
+
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+
+/*---- Pulls ---- */
+
+.pull-right {
+    justify-content: flex-end;
+    float: right;
+}
+
+.pull-left {
+    justify-content: flex-start;
+    float: left;
+}
+
+.center {
+    justify-content: center;
+}

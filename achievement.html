@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Labs</title>
+    <link rel="stylesheet" type="text/css" href="/vendor/lightcase-2.3.4/src/css/lightcase.css">
+    <link rel="stylesheet" href="/css/flex.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <nav>
+        <ul class="nav-bar center">
+          <li><a href="/index.html">Bio</a></li>
+          <li><a href="/timeline.html">Timeline</a></li>
+          <li class="active"><a href="#">Achievements</a></li>
+        </ul>
+    </nav>
+    <article class="row">
+        <div class="col-4-of-12">
+            <a href="/resources/programming-at-an-early-age.jpg" data-rel="lightcase:myCollection:slideshow" title="Like Mark Zuckerberg, Elon Musk began programming at an early age."><img src="resources/programming-at-an-early-age.jpg" height="240px" width="380px"></a>
+        </div>
+        <div class="col-4-of-12">
+            <a href="/resources/22-million.jpg" data-rel="lightcase:myCollection:slideshow" title="He made his first millions in 1999 when Compaq bought Zip2."><img src="resources/22-million.jpg" height="240px" width="380px"></a>
+        </div>
+        <div class="col-4-of-12">
+            <a href="/resources//spacex.jpg" data-rel="lightcase:myCollection:slideshow" title="Before the sale of PayPal was complete, he founded one of the two companies that has made Musk so famous over the last few years: SpaceX."><img src="resources//spacex.jpg" height="240px" width="380px"></a>
+        </div>
+        <div class="col-4-of-12">
+            <a href="/resources/teslamotors.jpg" data-rel="lightcase:myCollection:slideshow" title="In 2004, he joined the other: Tesla Motors. After leading an early investment round, he was brought in as Chairman of the Board of Directors."><img src="resources/teslamotors.jpg" height="240px" width="380px"></a>
+        </div>
+        <div class="col-4-of-12">
+            <a href="/resources/teslamotors1.jpg" data-rel="lightcase:myCollection:slideshow" title="And then there's the 2012 Tesla Model S, the company's crowning achievement."><img src="resources/teslamotors1.jpg" height="240px" width="380px"></a>
+        </div>
+        <div class="col-4-of-12">
+            <a href="/resources/ironman.jpg" data-rel="lightcase:myCollection:slideshow" title="Called the Iron Man of this era."><img src="resources/ironman.jpg" height="240px" width="380px"></a>
+        </div>
+    </article>
+    <footer>
+          <p class="copy center-block">&copy; Source: biography.com | Design by: Yazid Ismail</p>
+    </footer>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="vendor/lightcase-2.3.4/src/js/lightcase.js"></script>
+    <script  type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $('a[data-rel^=lightcase]').lightcase();
+	});
+</script>
+</body>
+</html>

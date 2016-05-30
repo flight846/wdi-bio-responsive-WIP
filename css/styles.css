@@ -1,0 +1,119 @@
+/* ---- Golbal Styles ---- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  background-color: #393939;
+}
+
+html, body {
+    height: 100%;
+}
+
+h1,
+.h1 {
+  font-size: 36px;
+}
+h2,
+.h2 {
+  font-size: 30px;
+}
+h3,
+.h3 {
+  font-size: 24px;
+}
+h4,
+.h4 {
+  font-size: 18px;
+}
+h5,
+.h5 {
+  font-size: 14px;
+}
+h6,
+.h6 {
+  font-size: 12px;
+}
+p {
+  margin: 0 0 10px;
+}
+
+/* ----- Added styles ---- */
+
+.header p {
+    margin: 10px;
+    color: #000;
+}
+
+nav {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.profile {
+    border-radius: 50%;
+    margin: 50px 0 0 20px;
+}
+
+.copy {
+   text-align: center;
+   position: fixed;
+   left: 0px;
+   bottom: 0px;
+   height: 30px;
+   width: 100%;
+   background: #393939;
+   border-top: 1px solid #999;
+}
+
+.col-4-of-12  {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* ---- Responsive ---- */
+@media all and (max-width: 800px) {
+  .nav-bar {
+    justify-content: space-around;
+  }
+  
+  .navigation a {
+    border-bottom: #fff;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .nav-bar {
+    background: #e2e2e2;
+    flex-flow: column wrap;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-bar a { 
+    color: #000;
+    text-align: center; 
+    padding: 10px;
+
+  }
+    
+  .nav-bar .active a:hover {
+    color: #fff; 
+  }
+
+}
